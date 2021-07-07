@@ -1,0 +1,20 @@
+package javaee.spring.mydreamshop.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import javaee.spring.mydreamshop.model.Stock;
+
+@Controller
+@RequestMapping("/addstock")
+public class AddStockController {
+
+	@GetMapping
+	public String loadStockForm(Model model) {
+		Stock stock = new Stock();
+		
+		return "addstockview";
+	}
+}

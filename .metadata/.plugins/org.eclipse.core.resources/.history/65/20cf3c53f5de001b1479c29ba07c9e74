@@ -1,0 +1,8 @@
+package snippet;
+
+public class Snippet {
+	public static void main(String[] args) {
+		/Users/ayechannmay/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar
+	}
+}
+

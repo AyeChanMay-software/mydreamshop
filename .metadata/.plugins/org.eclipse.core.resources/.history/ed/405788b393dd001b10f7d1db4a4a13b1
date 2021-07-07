@@ -1,0 +1,5 @@
+package javaee.spring.mydreamshop.controller;
+
+public class HomeController {
+
+}

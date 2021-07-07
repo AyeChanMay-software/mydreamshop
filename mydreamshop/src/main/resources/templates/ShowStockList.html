@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<link href="addstockview.css" rel="stylesheet" type="text/css">
+ <head>
+  <meta charset="UTF-8">
+  <title>Add Stock</title>
+ </head>
+ <body>
+  <h1>Saving Stock Success!!!.</h1>
+  <p>Stock Name:<span th:text="*{stock.name}"></span></p>
+  <p>Category:<span th:text="*{stock.category}"></span></p>
+  <p>Price:<span th:text="*{stock.price}"></span></p>
+ </body>
+</html>

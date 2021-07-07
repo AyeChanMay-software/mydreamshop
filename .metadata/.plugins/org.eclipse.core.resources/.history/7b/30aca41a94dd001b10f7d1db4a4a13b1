@@ -1,0 +1,5 @@
+package javaee.spring.mydreamshop.view;
+
+public class HomeVeiw {
+
+}

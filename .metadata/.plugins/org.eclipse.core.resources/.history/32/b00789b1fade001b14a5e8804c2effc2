@@ -1,0 +1,5 @@
+package javaee.spring.mydreamshop.model;
+
+public class Category {
+
+}

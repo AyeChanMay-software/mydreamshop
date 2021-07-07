@@ -1,0 +1,9 @@
+body {
+	background: url('images/home-img.jpg');
+}
+
+
+footer {
+	 width: 100%;
+	 height: 20%;
+}

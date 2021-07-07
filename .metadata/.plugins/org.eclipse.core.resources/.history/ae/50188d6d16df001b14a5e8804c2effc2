@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<link href="css/addstockview.css" rel="stylesheet" type="text/css">
+ <head>
+  <meta charset="UTF-8">
+  
+  <h1>Add Stock</h1>
+ </head>
+ <body>
+  <form th:action="@{savestock}" th:object="${stock}" method="POST">
+   <table>
+     <tr>
+      <td class="form">
+       <label>Name</label>
+       <input type="text" th:field="*{name}">
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <label>Category</label>
+       <select th:field="*{category}">
+        <option value=""></option>
+        <option value="Clothes">Clothes</option>
+        <option value="Bags">Bags</option>
+        <option value="Accessories">Accessories</option>
+       </select>
+      <td>
+     </tr>
+     <tr>
+     　<td>
+     　　<label>Price(円)</label>
+        <input type="number" th:field="*{price}">
+       </td>
+      </tr>
+     <tr>
+      <td>
+       <input type="submit" value="SAVE">
+      </td>
+     </tr>
+   </table>
+  </form> 
+ </body>
+</html>

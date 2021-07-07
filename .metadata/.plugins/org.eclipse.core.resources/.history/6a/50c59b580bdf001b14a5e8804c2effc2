@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<link href="addstockview.css" rel="stylesheet" type="text/css">
+ <head>
+  <meta charset="UTF-8">
+  <title>Add Stock</title>
+ </head>
+ <body>
+  <h1>Saving Stock Success!!!.</h1>
+ </body>
+</html>

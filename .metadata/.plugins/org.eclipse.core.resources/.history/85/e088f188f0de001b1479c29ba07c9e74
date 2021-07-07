@@ -1,0 +1,5 @@
+package javaee.spring.mydreamshop.repository;
+
+public class Stock {
+
+}

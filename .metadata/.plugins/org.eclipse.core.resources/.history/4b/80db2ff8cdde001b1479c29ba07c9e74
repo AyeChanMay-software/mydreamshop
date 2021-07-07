@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+   <title>My Dream Shop</title>
+  </head>
+  <body>
+   <h1>Welcome to...MyDreamShop</h1> 
+  </body>
+</html>

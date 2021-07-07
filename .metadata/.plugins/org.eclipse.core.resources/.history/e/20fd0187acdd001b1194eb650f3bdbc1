@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+ <head>
+  <h1>Add Stock</h1>
+ </head>
+ <body>
+  <form action="#" >
+   <table>
+     <tr><td>Stock Name<input type="text"></td></tr>
+     <tr>Price<input type="number"></tr>
+     <input type="submit" value="Add">
+   </table>
+  </form>
+ </body>
+</html>

@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<header>
+<a href="#">Home</a>
+<a href="/addstock">Add Stock</a>
+<a href="/showstocklist">View Stock List</a>
+</header>
+

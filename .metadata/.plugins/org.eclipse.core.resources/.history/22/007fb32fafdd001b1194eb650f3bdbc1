@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+ <head>
+  <h1>Add Stock</h1>
+ </head>
+ <body>
+  <form action="#">
+   <table>
+     <tr><td>Stock Name<input type="text"></td></tr>
+     <tr>
+      <td>
+       Category
+       <select>
+        <option th:text="Accessories"></option>
+        <option th:text="Accessories"></option>
+        <option th:text="Accessories"></option>
+        <option th:text="Accessories"></option>
+        <option th:text="Accessories"></option>
+       </select>
+      <td>
+     </tr>
+     <tr><td><input type="submit" value="Add"></td></tr>
+   </table>
+  </form>
+ </body>
+</html>

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+   <title>My Dream Shop</title>
+  </head>
+  <body>
+   <h1>Welcome to...</h1> 
+   <img th:src="@{/images/yellow_flowers.jpg}"/>
+  </body>
+</html>

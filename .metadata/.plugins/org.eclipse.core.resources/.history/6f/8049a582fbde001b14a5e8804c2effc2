@@ -1,0 +1,13 @@
+package javaee.spring.mydreamshop.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class AddStockController {
+
+	@GetMapping("addstock")
+	public String AddStock() {
+		return "addstock";
+	}
+}

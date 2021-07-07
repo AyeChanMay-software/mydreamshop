@@ -1,0 +1,18 @@
+package javaee.spring.mydreamshop.model;
+
+import java.util.Locale.Category;
+
+import lombok.Data;
+
+@Data
+public class Stock {
+
+	private String name;
+	private final Category category;
+	
+	public enum Category {
+		Accessories,Accessories1,Accessories2;
+	}
+	
+	
+}
